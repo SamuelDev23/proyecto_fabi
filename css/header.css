@@ -1,0 +1,46 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 7.5%;
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: default;
+    padding: 0px auto;
+    filter: drop-shadow(0 0 2px #0ef);
+    animation: opacity 5s ease-in-out infinite;
+}
+@keyframes opacity {
+    0%,100%{
+        filter: drop-shadow(0 0 5px);
+    }
+    50%{
+        filter: none;
+    }
+}
+
+.header.sticky{
+    border-bottom: .1rem solid rgba(0,0,0, .2);
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: #fff;
+    margin-left: 4rem;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    color: #0ef;
+}

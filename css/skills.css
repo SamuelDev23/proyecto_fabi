@@ -1,0 +1,35 @@
+.skills div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    padding-bottom: 10rem;
+}
+
+.primary img{
+   transition: .4s;
+   padding-top:20px;
+}
+.primary img:hover{
+    transform: scale(1.4);
+}
+
+.secondary img{
+    transition: .4s;
+    padding-top:10px;
+    padding-bottom: auto;
+}
+
+.secondary img:hover{
+    transform: scale(1.4);
+}
+
+
+.terciary img{
+    transition: .4s;
+    padding-top:10px;
+}
+
+.terciary img:hover{
+    transform: scale(1.4);
+}
